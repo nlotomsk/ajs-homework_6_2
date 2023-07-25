@@ -37,5 +37,13 @@
   },
   "dependencies": {
     "core-js": "^3.6.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nlotomsk/ajs-homework_6_2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nlotomsk/ajs-homework_6_2/issues"
+  },
+  "homepage": "https://github.com/nlotomsk/ajs-homework_6_2#readme"
 }
