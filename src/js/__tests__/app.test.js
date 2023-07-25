@@ -9,7 +9,7 @@ test('create Character name > 10', () => {
 });
 
 test('create Character type Error', () => {
-  expect(() => new Character('Demon1712', 'Daemon123')).toThrowError(new Error('класс не существует'));
+  expect(() => new Character('Demon1712', 'Daemon123')).toThrowError(new Error('тип не существует'));
 });
 
 test('create Character levelUp 0', () => {

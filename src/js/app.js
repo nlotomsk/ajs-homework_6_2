@@ -7,7 +7,7 @@ export default class Character {
     }
     const types = ['Bowman', 'Swordsman', 'Magician', 'Daemon', 'Undead', 'Zombie'];
     if (types.indexOf(type) === -1) {
-      throw new Error('класс не существует');
+      throw new Error('тип не существует');
     } else {
       this.type = type;
     }
